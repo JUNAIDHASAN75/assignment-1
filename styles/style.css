@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+/* header-start */
+.header-part{
+    background-image: url('../images/banner/banner2.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 250px; 
+}
+.banner-container{
+    width: 30%;
+    position: relative;
+    left: 60%;
+    top: 30%;
+}
+.color{
+    color: #d90000;
+}
+.banner-content{
+    text-align: right;
+    position: absolute;
+    
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.banner-discription{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+.primary-btn{
+    padding:10px 20px;
+    background: rgb(255, 5, 5);
+    border: 0;
+    border-radius: 5px;
+
+}
+.primary-btn a{
+    color: white;
+    text-decoration: none;
+}
+/* header-end */
+section{
+    width: 80%;
+    margin: 0 auto;
+}
+.about{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 150px;
+   
+}
+.about-container{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+ .about-content-1{
+    background: rgb(255, 5, 5);
+    padding: 20px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50% ;
+    float: left;
+    position: relative;
+}
+.about-content-1 .about-image{
+    width: 100%;
+    position: absolute;
+    right: 0%;
+    bottom: -1%
+
+}
+.about-content-2{
+    
+    text-align: left;
+    margin-top: 20px;
+    padding: 50px 10px;
+    width: 50%;
+    float: right;
+}
+.about-title{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.about-dis{
+    margin-bottom: 10px;
+    font-size: 400;
+    font-size: 14px;
+}
+.about-content-2 ol {
+    padding-left:17px ; 
+}
+.about-content-2 ol li{
+    font-weight: 400;
+    font-size: 14px;
+    padding: 5px;
+    list-style-image: url(../images/icons/tick.png);
+    
+}
+/* plan */
+.plan{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.plan-header{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.plan-container{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    
+}
+.plan-content{
+    text-align: center;
+}
+.plan-logo{
+    width: 50px;
+    margin-bottom: 10px;
+}
+.plan-title{
+    font-weight: 700px;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.plan-dis{
+    font-weight: 500;
+    font-size: 20px;
+}
+.mindset{
+    background-image:linear-gradient(to right, rgba(243, 45, 5, 0.624), rgba(28, 27, 27, 0.192)), url('../images/watch.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    width: 80%;
+    height: 200px;
+    margin-bottom: 50px;
+    
+}
+.mindset-content{
+    padding: 50px;
+}
+.mindset-title{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.call-btn{
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+.call-btn a{
+    text-decoration: none;
+    color: red;
+}
+/* footer */
+.final{
+    background: #151414;
+    width: 100%;
+    height: 400px;
+}
+.final-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 0 0 0 ;
+
+}
+
+.final-title{
+    color: white;
+    font-size: 700;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.final-dis{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+.address{
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+}
+#email{
+    padding: 20px ;
+    background: #151414 ;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white; 
+}
