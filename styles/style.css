@@ -10,13 +10,13 @@
     background-position: center;
     width: 100%;
     height: 100vh;
-    margin-bottom: 250px; 
+    margin-bottom: 150px; 
 }
 .banner-container{
     width: 30%;
     position: relative;
     left: 60%;
-    top: 30%;
+    top: 15%;
 }
 .color{
     color: #d90000;
@@ -41,23 +41,54 @@
     background: rgb(255, 5, 5);
     border: 0;
     border-radius: 5px;
+    font-weight: 600;
 
 }
 .primary-btn a{
     color: white;
     text-decoration: none;
 }
+.navbar{
+    padding-top: 60px;
+    padding-right: 130px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: right;
+}
+.navbar ul li{
+    padding: 10px 20px;
+    list-style: none;
+    margin: 5px;
+    background: rgba(181, 170, 170, 0.601);
+    border-radius: 5px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#d90000;
+    font-weight: 600;
+}
+.nav-style{
+    color: white;
+
+}
 /* header-end */
+
+/* main-start */
 section{
     width: 80%;
     margin: 0 auto;
 }
+
+/* about-start */
 .about{
-    width: 80%;
+     width: 1000px;
+     background-color: white;
     margin: 0 auto;
     text-align: center;
     padding-left: 150px;
-   
+    box-shadow: 3px 5px 20px rgb(204, 202, 202);
+  
 }
 .about-container{
     display: flex;
@@ -68,6 +99,7 @@ section{
 
  .about-content-1{
     background: rgb(255, 5, 5);
+    box-sizing: border-box;
     padding: 20px;
     width: 350px;
     height: 350px;
@@ -101,7 +133,7 @@ section{
     font-size: 14px;
 }
 .about-content-2 ol {
-    padding-left:17px ; 
+    padding-left:22px ; 
 }
 .about-content-2 ol li{
     font-weight: 400;
@@ -112,7 +144,7 @@ section{
 }
 /* plan */
 .plan{
-    width: 80%;
+    width: 1000px;
     margin: 0 auto;
     margin-bottom: 50px;
 }
@@ -124,12 +156,13 @@ section{
 }
 .plan-container{
     display: flex;
-    gap: 100px;
+    gap: 120px;
     align-items: center;
     
 }
 .plan-content{
     text-align: center;
+    margin-left: 10px;
 }
 .plan-logo{
     width: 50px;
@@ -137,7 +170,7 @@ section{
 }
 .plan-title{
     font-weight: 700px;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 15px;
 }
 .plan-dis{
@@ -172,6 +205,8 @@ section{
     text-decoration: none;
     color: red;
 }
+/* main end */
+
 /* footer */
 .final{
     background: #151414;
